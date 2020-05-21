@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="icon.svg">
+<title> Smartline </title>
+<link href="stile.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body id="smartline" style="font-family: montserrat;
+              color:rgb(25,25,25);
+            ">
+  
+  <div id="div_toolbar">
+    <header>
+      <h1><a href="#smartline">Smartline</a></h1>
+    </header>
+    
+    <div class="container" onclick="menuToggle(this);" id="menubutton">
+       <div class="bar1"></div>
+       <div class="bar3"></div>
+    </div>
+    
+    <nav> 
+      <ul>
+        <li class="navitem"><a href="contattaci.html">CONTATTACI</a></li>
+        <li class="navitem"><a href="changelog.html">CHANGELOG</a></li>
+        <li class="navitem"><a href="faq.html">FAQ</a></li>
+        <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+      </ul>
+       <div class="verticalnavbar">
+       <div class="dropdown">
+        <button class="dropbtn">
+          <i class="fa fa-caret-down"></i>
+        </button>
+          <div class="dropdown-content" id="dropdown-content">
+            <a href="#contacts" onclick='menuToggle(document.getElementById("menubutton"));'>CONTATTACI</a>
+            <a href="changelog.html">CHANGELOG</a></li>
+            <a href="faq.html">FAQ</a></li>
+           </div>
+        </div>
+       </div>
+    </nav>
+  </div>
+ 
+  <div id="flexbox" onclick='menuClose(document.getElementById("menubutton"));'>
+  
+  <div id="section_intro" class="section" style="padding-top: calc(5% + 100px); opacity:1">
+	  
+    <div id="intro" class="div_right" onmousemove="mouseMove(this);">
+      Smartline è un app che permette ai team di lavoro di coordinare le attività in pipeline, sfruttando la portabilità e praticità degli smartwatch.
+      <div class="div_descr">
+        <a href = "mailto: a.dimperio1@studenti.poliba.it">
+          <img id="mail" class="mail" src="img/mail.svg" >
+          <img src="img/angie.jpg">
+        </a>
+        <p><b>Angela D'Imperio</b>
+        <br style="margin:4%;">
+        project leader
+        </p>
+      </div>
+    </div>
+    
+    <div class="div_left" id="div_getit">
+      <img id="getit" href="#topofpage" src="img/icon-transparent-progress.svg" width="100%">
+    </div>
+    
+    <!--
+    <div class="div_left" id="div_getit">
+      <img src="img/getit.png" id="getit" href="#topofpage" width="100%">
+    </div>
+    -->
+    
+  </div>
+  
+  <div class="section" id="section_admin" style="transform: scale(0.8);">
+		<div class="div_left">
+      <div class="anim_admin noselect" width="100%">
+        <div class="smartphone">
+          <div class="content">
+            <ul>
+            <div class="smartphone_title">OVERALL</div>
+            <div class="smartphone_title"> </div>
+            <li><div class="circle"> </div> <div class="listitem"> <span class="checkmark"> <div class="checkmark_circle"></div> <div class="checkmark_stem"></div> <div class="checkmark_kick"></div> </span> </div></li>
+            <li><div class="circle"> </div> <div class="listitem"> <span class="checkmark"> <div class="checkmark_circle"></div> <div class="checkmark_stem"></div> <div class="checkmark_kick"></div> </span> </div></li>
+            <li><div class="circle"> </div> <div class="listitem"> <span class="checkmark"> <div class="checkmark_circle"></div> <div class="checkmark_stem"></div> <div class="checkmark_kick"></div> </span> </div></li>
+            <li><div class="circle"> </div> <div class="listitem"> <span class="checkmark"> <div class="checkmark_circle"></div> <div class="checkmark_stem"></div> <div class="checkmark_kick"></div> </span> </div></li>
+            <li><div class="circle"> </div> <div class="listitem"> <span class="checkmark"> <div class="checkmark_circle"></div> <div class="checkmark_stem"></div> <div class="checkmark_kick"></div> </span> </div></li>
+            <li><div class="circle"> </div> <div class="listitem"> <span class="checkmark"> <div class="checkmark_circle"></div> <div class="checkmark_stem"></div> <div class="checkmark_kick"></div> </span> </div></li>
+            <li><div class="circle"> </div> <div class="listitem"> <span class="checkmark"> <div class="checkmark_circle"></div> <div class="checkmark_stem"></div> <div class="checkmark_kick"></div> </span> </div></li>
+            <li><div class="circle"> </div> <div class="listitem"> <span class="checkmark"> <div class="checkmark_circle"></div> <div class="checkmark_stem"></div> <div class="checkmark_kick"></div> </span> </div></li>
+            <li><div class="circle"> </div> <div class="listitem"> <span class="checkmark"> <div class="checkmark_circle"></div> <div class="checkmark_stem"></div> <div class="checkmark_kick"></div> </span> </div></li>
+            <li><div class="circle"> </div> <div class="listitem"> <span class="checkmark"> <div class="checkmark_circle"></div> <div class="checkmark_stem"></div> <div class="checkmark_kick"></div> </span> </div></li>
+            <li><div class="circle"> </div> <div class="listitem"> <span class="checkmark"> <div class="checkmark_circle"></div> <div class="checkmark_stem"></div> <div class="checkmark_kick"></div> </span> </div></li>
+            <li><div class="circle"> </div> <div class="listitem"> <span class="checkmark"> <div class="checkmark_circle"></div> <div class="checkmark_stem"></div> <div class="checkmark_kick"></div> </span> </div></li>
+            <li><div class="circle"> </div> <div class="listitem"> <span class="checkmark"> <div class="checkmark_circle"></div> <div class="checkmark_stem"></div> <div class="checkmark_kick"></div> </span> </div></li>
+            <li><div class="circle"> </div> <div class="listitem"> <span class="checkmark"> <div class="checkmark_circle"></div> <div class="checkmark_stem"></div> <div class="checkmark_kick"></div> </span> </div></li>
+            <li><div class="circle"> </div> <div class="listitem"> <span class="checkmark"> <div class="checkmark_circle"></div> <div class="checkmark_stem"></div> <div class="checkmark_kick"></div> </span> </div></li>
+            <li><div class="circle"> </div> <div class="listitem"> <span class="checkmark"> <div class="checkmark_circle"></div> <div class="checkmark_stem"></div> <div class="checkmark_kick"></div> </span> </div></li>
+            <li><div class="circle"> </div> <div class="listitem"> <span class="checkmark"> <div class="checkmark_circle"></div> <div class="checkmark_stem"></div> <div class="checkmark_kick"></div> </span> </div></li>
+            <li><div class="circle"> </div> <div class="listitem" style="background-color: #ff8229; width:60%; "> </div> <div class="ext_progress"> <div class="loadingring"> </div></div> </li>
+            <li style="opacity: 0.2;"><div class="circle"> </div> <div class="listitem"></li>
+            <li style="opacity: 0.2;"><div class="circle"> </div> <div class="listitem"></li>
+            <li style="opacity: 0.2;"><div class="circle"> </div> <div class="listitem"></li>
+            <li style="opacity: 0.2;"><div class="circle"> </div> <div class="listitem"></li>
+            <li style="opacity: 0.2;"><div class="circle"> </div> <div class="listitem"></li>
+            <li style="opacity: 0.2;"><div class="circle"> </div> <div class="listitem"></li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="div_right">
+      <div id="admin" class="ptitle">AMMINISTRAZIONE</div><br>
+      Crea e controlla facilmente lo stato di avanzamento dei flussi di lavoro assegnando le attività ai tuoi dipendenti.
+      <div class="div_descr">
+        <a href = "mailto: c.cavaliere1@studenti.poliba.it">
+          <img class="mail" src="img/mail.svg">
+          <img src="img/claudio.jpg">
+        </a>
+        <p><b>Claudio Cavaliere</b>
+        <br style="margin:4%;">
+        ingegnere del software
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section" id="section_tech">
+    <div class="div_right" id="tech_card">
+      <div id="tech" class="ptitle">TECNOLOGIA</div><br>
+      Comunicare non è mai stato così semplice, grazie all'integrazione smartwatch dell'applicazione.
+      <div class="div_descr">
+        <a href = "mailto:a.dagnano@studenti.poliba.it">
+          <img class="mail" src="img/mail.svg">
+          <img src="img/angelo.jpg">
+        </a>
+        <p><b>Angelo D'Agnano</b>
+        <br style="margin:4%;">
+        analista
+        </p>
+      </div>
+    </div>
+     <div class="div_left">
+      <div class="anim_smartwatch noselect" width="100%">
+        <div class="watch">
+          <div class="watch_belt">
+            <div class="watch_model">
+              <div class="watch_content">
+                <div class="logo">
+                  <img src="img/icon.svg">
+                </div>
+                <div class="app">
+                  <div class="circle"> START </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="watch_button"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section" id="section_database" style="padding-bottom: calc(5vw + 100px);">
+	  <div class="div_left">
+      <div class="anim_realtime noselect" width="100%">
+        <div class="smartphone" id="smartphone-left">
+            <div class="content_3">
+              <div class="circle"> FINISH </div>
+            </div>
+        </div>
+          <div style="max-width: 30px; display:flex; flex-direction: row;">
+        <div class="connection">- </div><div class="connection">- </div><div class="connection">- </div><div class="connection">- </div>
+        <div class="connection">- </div><div class="connection">- </div><div class="connection">- </div><div class="connection">- </div>
+          </div>
+        <div class="smartphone" id="smartphone-right">
+          <div class="content_3">
+              <div class="circle"> START </div>
+              <div id="yourturn"> YOUR TURN !! </div>
+          </div>
+         </div>
+      </div>
+    </div>
+    
+    <div class="div_right">
+      <div id="data" class="ptitle">DATABASE</div><br>
+      Con il database Realtime di Google, la velocità di comunicazione massimizza l'efficienza del team.
+      <div class="div_descr">
+        <a href = "mailto: l.semeraro9@studenti.poliba.it">
+          <img class="mail" src="img/mail.svg">
+          <img src="img/lory.jpg">
+        </a>
+        <p><b>Lorenzo Semeraro</b>
+        <br style="margin:4%;">
+        programmatore
+        </p>
+      </div>
+    </div>
+  </div>
+   
+   <!--
+  <div class="parallax" id="parallax">
+    <div class="fixed">SCROLL ME</div>
+    <div class="parallax__layer parallax__layer--back">
+      <div class="starfield">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="parallax__layer parallax__layer--back2">
+      <div class="starfield">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="parallax__layer parallax__layer--back3">
+      <div class="starfield">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="parallax__layer parallax__layer--base">
+      <div class="starfield">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>    
+   </div>
+  </div>
+  -->
+  <div id="last">
+  </div>
+  
+  <footer> <br> 
+     <div class="ptitle2" style="color:rgb(220,220,220);">SEGUICI SUI NOSTRI CANALI SOCIAL!</div><br> <br>
+     <div id="social" class="div_social">
+      <img src="img/facebook.png"
+      width="20%">
+      <img src="img/twitter.png"
+      width="20%">
+      <img src="img/instagram.png"
+      width="20%">
+    </div> 
+  </footer>
+</body>
+</html>
